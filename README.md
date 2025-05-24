@@ -6,6 +6,11 @@
 
 ---
 
+*Overview of the interface, focusing on card stage columns.*
+*Visão geral da interface, com foco nas colunas de estágios dos cartões.*
+
+![Screenshot of Enhance main window - 🚦Card Stages](https://i.ibb.co/MxPGH580/image.png)
+
 ## **English**
 
 This add-on offers a streamlined and intuitive fork of the well-regarded "Enhance main window" functionality. It simplifies the Anki deck browser by presenting a clean and efficient column layout, focusing on an optimized order to help you quickly understand where your cards are across their various learning stages.
@@ -19,9 +24,6 @@ The main goal is to offer a clear view by focusing on a set of simple columns. T
 ### **Features**
 
 - **Intuitive Column Layout:** Presents a curated set of columns in a predefined order. This sequence is designed to logically display where your cards are located based on their current learning stage (e.g., New, Learning, Review, Due, Unseen, Suspended, Buried, Total), making it easier to assess your study progress at a glance.
-
-  *Overview of the interface, focusing on card stage columns.*
-  ![Screenshot of Enhance main window - 🚦Card Stages](URL_DA_SUA_IMAGEM_AQUI)
 
 - **Simplicity:** Works out-of-the-box with its streamlined view. No complex configuration is needed.
 - **Focus on Essentials:** Provides key card count information without overwhelming the user with too many options or data points.
@@ -65,16 +67,10 @@ If you encounter any issues or have ideas for simple enhancements that align wit
 
 ### **License**
 
--   **Copyright(C)** | [Your Name/Handle Here - e.g., Your GitHub Username]
+-   **Copyright(C)** | [Carlos Duarte]
 -   This add-on is likely to inherit the license of the original works it is based on. Please refer to the original add-ons for specific license details (typically GNU AGPL, version 3 or later). It is recommended to include a copy of the relevant license if you distribute this addon.
 
     *   Original "Enhance main window" License: [GNU AGPL, version 3](http://www.gnu.org/licenses/agpl.html)
-
----
-
-*This README was generated based on the structure of the "Don't Stop Studying – Focus Alerts for Anki" addon and adapted for "Enhance main window - 🚦Card Stages".*
-
----
 
 ### **Changelog**
 
@@ -103,9 +99,6 @@ O objetivo principal é oferecer uma visão clara, focando em um conjunto de col
 ### **Funcionalidades**
 
 - **Layout de Colunas Intuitivo:** Apresenta um conjunto curado de colunas em uma ordem predefinida. Esta sequência é projetada para exibir logicamente onde seus cartões estão localizados com base em seu estágio de aprendizado atual (ex: Novos, Aprendendo, Revisão, Devem, Não Vistos, Suspensos, Enterrados, Total), facilitando a avaliação do seu progresso de estudo rapidamente.
-
-  *Visão geral da interface, com foco nas colunas de estágios dos cartões.*
-  ![Screenshot of Enhance main window - 🚦Card Stages](URL_DA_SUA_IMAGEM_AQUI)
 
 - **Simplicidade:** Funciona imediatamente com sua visualização simplificada. Nenhuma configuração complexa é necessária.
 - **Foco no Essencial:** Fornece informações chave sobre a contagem de cartões sem sobrecarregar o usuário com muitas opções ou pontos de dados.
@@ -149,16 +142,10 @@ Se você encontrar quaisquer problemas ou tiver ideias para melhorias simples qu
 
 ### **Licença**
 
--   **Copyright(C)** | [Seu Nome/Handle Aqui - ex: Seu Usuário do GitHub]
+-   **Copyright(C)** | [Carlos Duarte]
 -   Este add-on provavelmente herdará a licença dos trabalhos originais em que se baseia. Por favor, consulte os add-ons originais para detalhes específicos da licença (tipicamente GNU AGPL, versão 3 ou posterior). Recomenda-se incluir uma cópia da licença relevante se você distribuir este addon.
 
     *   Licença Original "Enhance main window": [GNU AGPL, version 3](http://www.gnu.org/licenses/agpl.html)
-
----
-
-*Este README foi gerado com base na estrutura do addon "Don't Stop Studying – Focus Alerts for Anki" e adaptado para "Enhance main window - 🚦Card Stages".*
-
----
 
 ### **Histórico de Alterações**
 
