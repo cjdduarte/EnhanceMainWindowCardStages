@@ -1,0 +1,39 @@
+/* Tooltip container */
+        a:hover{
+        cursor: pointer;
+        }
+
+	/* padding-left for header columns except deck-column */
+	th.count {
+        padding-left:10px;
+        cursor: pointer;
+        text-align: center !important; /* Centraliza o texto do cabeçalho */
+	}
+
+        .openDeck .number_cell {
+            visibility: hidden;
+        }
+
+    .progress:hover {
+        overflow: visible !important
+    }
+
+    .vertical-divider {
+        border-right: 1px dotted #d0d0d0; /* Linha pontilhada, tom intermediário */
+        padding-right: 5px; /* Espaço entre o conteúdo da célula e a linha */
+    }
+
+    /* Adiciona padding à esquerda da célula seguinte à que tem a linha DIREITA */
+    td.vertical-divider + td {
+        padding-left: 5px; /* Espaço entre a linha (direita da anterior) e o conteúdo desta célula */
+    }
+
+    /* 
+       Para centralizar a linha da ESQUERDA entre as colunas, a célula ANTERIOR 
+       à que tem .vertical-divider-before precisaria de um padding-right.
+       Como selecionar a célula anterior com CSS puro de forma confiável é difícil 
+       (sem :has ou seletores de parentesco reverso), essa parte do espaçamento 
+       (entre o conteúdo da célula anterior e a linha esquerda) não está 
+       automaticamente coberta aqui. A linha pode parecer mais próxima do conteúdo 
+       da célula anterior.
+    */
