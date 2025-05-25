@@ -1,4 +1,4 @@
-# **Enhance main window - 🚦Card Stages**
+# **Enhance main window🚦Card Stages**
 
 > **Note:** This document is available in both English and Portuguese. The English version is presented first, followed by the Portuguese version.
 >
@@ -6,10 +6,19 @@
 
 ---
 
-*Overview of the interface, focusing on card stage columns.*
-*Visão geral da interface, com foco nas colunas de estágios dos cartões.*
+<p align="center">
+  *Anki interface before installing the add-on:*/<br>
+  *Interface do Anki antes da instalação do add-on:*
+  <br>
+  <img src="https://i.ibb.co/mrjXT9J7/image.png" alt="Screenshot of Anki before addon">
+</p>
 
-![Screenshot of Enhance main window - 🚦Card Stages](https://i.ibb.co/MxPGH580/image.png)
+<p align="center">
+  *Anki interface with the "Enhance main window🚦Card Stages" add-on installed:*/<br>
+  *Interface do Anki com o add-on "Enhance main window🚦Card Stages" instalado:*
+  <br>
+  <img src="https://i.ibb.co/MxPGH580/image.png" alt="Screenshot of Enhance main window🚦Card Stages">
+</p>
 
 ## **English**
 
@@ -38,7 +47,7 @@ The main goal is to offer a clear view by focusing on a set of simple columns. T
     *   The new column layout will be automatically applied to your deck browser.
     *   There are no extra configuration steps required. Enjoy the cleaner, more intuitive interface!
 
-### **Why "Enhance main window - 🚦Card Stages"?**
+### **Why "Enhance main window🚦Card Stages"?**
 
 While the original "Enhance main window" and Shigeඞ's customized version offer a wealth of information and extensive customization, this version focuses on providing essential information in a highly intuitive and straightforward manner. If you appreciate a clean overview that helps you quickly locate cards within their study lifecycle, this addon is for you.
 
@@ -113,7 +122,7 @@ O objetivo principal é oferecer uma visão clara, focando em um conjunto de col
     *   O novo layout de colunas será aplicado automaticamente ao navegador de baralhos.
     *   Não são necessários passos de configuração extras. Aproveite a interface mais limpa e intuitiva!
 
-### **Por que "Enhance main window - 🚦Card Stages"?**
+### **Por que "Enhance main window🚦Card Stages"?**
 
 Enquanto o "Enhance main window" original e a versão personalizada de Shigeඞ oferecem uma vasta quantidade de informações e personalização extensiva, esta versão foca em fornecer informações essenciais de uma maneira highly intuitiva e direta. Se você aprecia uma visão geral limpa que ajuda a localizar rapidamente os cartões dentro do seu ciclo de estudo, este addon é para você.
 
