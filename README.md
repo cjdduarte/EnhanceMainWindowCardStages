@@ -39,14 +39,6 @@ The main goal is to offer a clear view by focusing on a set of simple columns. T
 - **Multi-language Support:** Headers and tooltips for columns are now translatable, with initial support for English and Portuguese (Brazil). Users can define translations in `config.json`.
 - **Based on Proven Code:** Built upon the solid foundation of the original "Enhance main window" addons, ensuring stability and compatibility.
 
-### **How to Use**
-
-1.  **Installation:**
-    *   Install the add-on via Anki's add-on manager.
-2.  **Usage:**
-    *   The new column layout will be automatically applied to your deck browser.
-    *   There are no extra configuration steps required. Enjoy the cleaner, more intuitive interface!
-
 ### **Why "Enhance main window🚦Card Stages"?**
 
 While the original "Enhance main window" and Shigeඞ's customized version offer a wealth of information and extensive customization, this version focuses on providing essential information in a highly intuitive and straightforward manner. If you appreciate a clean overview that helps you quickly locate cards within their study lifecycle, this addon is for you.
@@ -83,6 +75,8 @@ If you encounter any issues or have ideas for simple enhancements that align wit
 
 ### **Changelog**
 
+- **v1.2 - 2025-05-25 - Feature Removal**: 
+  - Removed the `vertical_line_after` functionality and associated CSS for drawing vertical lines between columns.
 - **v1.1 - 2025-05-24 - Internationalization & Configurable Translations**:
   - Added multi-language support for column headers and tooltips.
   - Translations can now be configured in `config.json` via `header_key`, `overlay_key`, and the `translation_maps` section.
@@ -113,14 +107,6 @@ O objetivo principal é oferecer uma visão clara, focando em um conjunto de col
 - **Foco no Essencial:** Fornece informações chave sobre a contagem de cartões sem sobrecarregar o usuário com muitas opções ou pontos de dados.
 - **Suporte Multilíngue:** Cabeçalhos e dicas de ferramenta das colunas agora são traduzíveis, com suporte inicial para Inglês e Português (Brasil). Os usuários podem definir traduções no `config.json`.
 - **Based on Proven Code:** Construído sobre a base sólida dos addons originais "Enhance main window", garantindo estabilidade e compatibilidade.
-
-### **Como Usar**
-
-1.  **Instalação:**
-    *   Instale o add-on através do gerenciador de add-ons do Anki.
-2.  **Uso:**
-    *   O novo layout de colunas será aplicado automaticamente ao navegador de baralhos.
-    *   Não são necessários passos de configuração extras. Aproveite a interface mais limpa e intuitiva!
 
 ### **Por que "Enhance main window🚦Card Stages"?**
 
@@ -158,6 +144,8 @@ Se você encontrar quaisquer problemas ou tiver ideias para melhorias simples qu
 
 ### **Histórico de Alterações**
 
+- **v1.2 - 2025-05-25 - Remoção de Funcionalidade**:
+  - Removida a funcionalidade `vertical_line_after` e o CSS associado para desenhar linhas verticais entre colunas.
 - **v1.1 - 2025-05-24 - Internacionalização & Traduções Configuráveis**:
   - Adicionado suporte multilíngue para cabeçalhos de colunas e dicas de ferramenta.
   - As traduções agora podem ser configuradas no `config.json` através de `header_key`, `overlay_key` e da seção `translation_maps`.

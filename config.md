@@ -108,10 +108,6 @@ Each column object has the following properties:
     *   If `false`, calculations are only for the current deck.
     *   Default (if omitted): `true` is common for aggregated views.
 
-*   **`vertical_line_after`**: (boolean)
-    *   If `true`, a dotted vertical line is drawn to the right of this column, acting as a visual separator.
-    *   Default: `false`
-
 *   **`names`**: (array of strings, for `bar` type columns only)
     *   If `name` is `"bar"`, this array lists the internal names of other columns whose values should be part of this progress bar.
     *   Example: `["mature", "young", "learning card", "unseen"]`
@@ -244,10 +240,6 @@ Cada objeto de coluna possui as seguintes propriedades:
     *   Se `true`, os cálculos para esta coluna incluem cartões de sub-baralhos.
     *   Se `false`, os cálculos são apenas para o baralho atual.
     *   Padrão (se omitido): `true` é comum para visualizações agregadas.
-
-*   **`vertical_line_after`**: (booleano)
-    *   Se `true`, uma linha vertical pontilhada é desenhada à direita desta coluna, atuando como um separador visual.
-    *   Padrão: `false`
 
 *   **`names`**: (array de strings, apenas para colunas do tipo `bar`)
     *   Se `name` for `"bar"`, este array lista os nomes internos de outras colunas cujos valores devem fazer parte desta barra de progresso.

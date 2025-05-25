@@ -13,8 +13,7 @@
             "overlay_key": "col_new_today_overlay",
             "percent": false,
             "present": true,
-            "subdeck": true,
-            "vertical_line_after": false
+            "subdeck": true
         },
         {
             "absolute": true,
@@ -25,8 +24,7 @@
             "overlay_key": "col_learning_now_overlay",
             "percent": false,
             "present": true,
-            "subdeck": true,
-            "vertical_line_after": false
+            "subdeck": true
         },
         {
             "absolute": true,
@@ -37,8 +35,7 @@
             "overlay_key": "col_learning_all_overlay",
             "percent": false,
             "present": false,
-            "subdeck": true,
-            "vertical_line_after": false
+            "subdeck": true
         },
         {
             "absolute": true,
@@ -49,8 +46,7 @@
             "overlay_key": "col_review_today_overlay",
             "percent": false,
             "present": true,
-            "subdeck": true,
-            "vertical_line_after": false
+            "subdeck": true
         },
         {
             "absolute": true,
@@ -61,8 +57,7 @@
             "overlay_key": "col_today_overlay",
             "percent": false,
             "present": true,
-            "subdeck": true,
-            "vertical_line_after": true
+            "subdeck": true
         },
         {
             "absolute": true,
@@ -73,8 +68,7 @@
             "overlay_key": "col_suspended_overlay",
             "percent": false,
             "present": true,
-            "subdeck": true,
-            "vertical_line_after": false
+            "subdeck": true
         },
         {
             "absolute": true,
@@ -85,8 +79,7 @@
             "overlay_key": "col_buried_overlay",
             "percent": false,
             "present": true,
-            "subdeck": true,
-            "vertical_line_after": false
+            "subdeck": true
         },
         {
             "absolute": true,
@@ -97,8 +90,7 @@
             "overlay_key": "col_review_later_overlay",
             "percent": false,
             "present": true,
-            "subdeck": true,
-            "vertical_line_after": false
+            "subdeck": true
         },
         {
             "absolute": true,
@@ -109,8 +101,7 @@
             "overlay_key": "col_learning_later_overlay",
             "percent": false,
             "present": true,
-            "subdeck": true,
-            "vertical_line_after": false
+            "subdeck": true
         },
         {
             "absolute": true,
@@ -121,8 +112,7 @@
             "overlay_key": "col_undue_overlay",
             "percent": false,
             "present": true,
-            "subdeck": true,
-            "vertical_line_after": false
+            "subdeck": true
         },
         {
             "absolute": true,
@@ -133,8 +123,7 @@
             "overlay_key": "col_unseen_later_overlay",
             "percent": false,
             "present": true,
-            "subdeck": true,
-            "vertical_line_after": false
+            "subdeck": true
         },
         {
             "absolute": true,
@@ -145,8 +134,7 @@
             "overlay_key": "col_cards_overlay",
             "percent": false,
             "present": true,
-            "subdeck": true,
-            "vertical_line_after": false
+            "subdeck": true
         },
         {
             "absolute": true,
@@ -157,8 +145,7 @@
             "overlay_key": "col_reviewed_today_repeated_today_overlay",
             "percent": false,
             "present": false,
-            "subdeck": true,
-            "vertical_line_after": false
+            "subdeck": true
         },
         {
             "description": "Percent bar to do today",
@@ -172,11 +159,10 @@
             ],
             "overlay_key": "col_bar_today_overlay",
             "present": false,
-            "subdeck": true,
-            "vertical_line_after": false
+            "subdeck": true
         },
         {
-            "description": "Percent bar showing the deck\\'s repartition",
+            "description": "Percent bar showing the deck's repartition",
             "header_key": "col_bar_total_header",
             "name": "bar",
             "names": [
@@ -189,8 +175,7 @@
             ],
             "overlay_key": "col_bar_total_overlay",
             "present": false,
-            "subdeck": true,
-            "vertical_line_after": false
+            "subdeck": true
         },
         {
             "absolute": true,
@@ -201,8 +186,7 @@
             "overlay_key": "col_due_tomorrow_overlay",
             "percent": false,
             "present": true,
-            "subdeck": true,
-            "vertical_line_after": false
+            "subdeck": true
         }
     ],
     "default column color": "grey",
@@ -244,7 +228,7 @@
             "col_bar_today_header": "Today",
             "col_bar_today_overlay": "Percent bar to do today",
             "col_bar_total_header": "Total",
-            "col_bar_total_overlay": "Percent bar showing the decks\\'s repartition",
+            "col_bar_total_overlay": "Percent bar showing the deck's repartition",
             "col_due_tomorrow_header": "Rev+1",
             "col_due_tomorrow_overlay": "Cartões que serão entregues amanhã"
         },
@@ -278,7 +262,7 @@
             "col_bar_today_header": "Today",
             "col_bar_today_overlay": "Percent bar to do today",
             "col_bar_total_header": "Total",
-            "col_bar_total_overlay": "Percent bar showing the deck\\'s repartition",
+            "col_bar_total_overlay": "Percent bar showing the deck's repartition",
             "col_due_tomorrow_header": "Rev+1",
             "col_due_tomorrow_overlay": "Cards due tomorrow"
         }

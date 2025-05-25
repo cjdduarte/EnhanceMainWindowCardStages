@@ -527,7 +527,6 @@ class DeckNode:
                 else:
                     number = "absolute"
                 kind = "subdeck" if conf.get("subdeck", False) else "deck"
-                vertical_line_after = conf.get("vertical_line_after", False)
                 if name == "bar":
                     if not "names" in conf:
                         print("""A configuration whose name is "bar", should have a field "names".""", file=sys.stderr)
@@ -552,8 +551,7 @@ class DeckNode:
                         contents = ""
                     elif isinstance(whatToDo, str):
                         colour = whatToDo
-                buf += number_cell(colour, contents, getOverlay(conf), 
-                                   vertical_line_after=vertical_line_after)
+                buf += number_cell(colour, contents, getOverlay(conf))
         return buf
 
     def getOptionName(self):

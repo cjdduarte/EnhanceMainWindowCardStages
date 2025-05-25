@@ -96,11 +96,9 @@ def deck_name(depth, collapse, extraclass, did, cssStyle, name):
 """
 
 
-def number_cell(colour, number, description, vertical_line_after=False):
+def number_cell(colour, number, description):
     title_attr = f"title='{description}'" if description else ""
     class_attribute = "number_cell"
-    if vertical_line_after:
-        class_attribute += " vertical-divider"
     t = f"""
     <td align='right' class='{class_attribute}' {title_attr}>"""
     t += f"""
