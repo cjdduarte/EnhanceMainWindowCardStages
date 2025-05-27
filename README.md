@@ -6,6 +6,9 @@
 
 ---
 
+<b>#### New Change:</b>
+<b>2025-05-27 - macOS Fix</b>
+
 <p align="center">
   *Anki interface before installing the add-on:*/<br>
   *Interface do Anki antes da instalação do add-on:*
