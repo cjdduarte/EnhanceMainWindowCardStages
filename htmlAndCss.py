@@ -28,9 +28,9 @@ __location__ = os.path.realpath(
 js_file = os.path.join(__location__, "deckbrowser.js")
 css_file = os.path.join(__location__, "defaultcss.css")
 
-with open(js_file, "r") as f:
+with open(js_file, "r", encoding="utf-8") as f:
     js = f.read()
-with open(css_file, "r") as f:
+with open(css_file, "r", encoding="utf-8") as f:
     css = f.read()
 
 

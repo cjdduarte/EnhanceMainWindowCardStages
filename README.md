@@ -75,6 +75,8 @@ If you encounter any issues or have ideas for simple enhancements that align wit
 
 ### **Changelog**
 
+- **v1.3 - 2025-05-27 - macOS Fix**:
+  - Fixed `UnicodeDecodeError` on macOS by specifying UTF-8 encoding when reading `.js` and `.css` files.
 - **v1.2 - 2025-05-25 - Feature Removal**: 
   - Removed the `vertical_line_after` functionality and associated CSS for drawing vertical lines between columns.
 - **v1.1 - 2025-05-24 - Internationalization & Configurable Translations**:
@@ -144,6 +146,8 @@ Se você encontrar quaisquer problemas ou tiver ideias para melhorias simples qu
 
 ### **Histórico de Alterações**
 
+- **v1.3 - 2025-05-27 - Correção para macOS**:
+  - Corrigido `UnicodeDecodeError` no macOS ao especificar a codificação UTF-8 na leitura de arquivos `.js` e `.css`.
 - **v1.2 - 2025-05-25 - Remoção de Funcionalidade**:
   - Removida a funcionalidade `vertical_line_after` e o CSS associado para desenhar linhas verticais entre colunas.
 - **v1.1 - 2025-05-24 - Internacionalização & Traduções Configuráveis**:
