@@ -78,6 +78,8 @@ If you encounter any issues or have ideas for simple enhancements that align wit
 
 ### **Changelog**
 
+- **v1.4 - 2025-06-03 - Preset Column Header**:
+  - Added a translatable header ("Preset") to the deck options/preset column.
 - **v1.3 - 2025-05-27 - macOS Fix**:
   - Fixed `UnicodeDecodeError` on macOS by specifying UTF-8 encoding when reading `.js` and `.css` files.
 - **v1.2 - 2025-05-25 - Feature Removal**: 
@@ -149,6 +151,8 @@ Se você encontrar quaisquer problemas ou tiver ideias para melhorias simples qu
 
 ### **Histórico de Alterações**
 
+- **v1.4 - 2025-06-03 - Cabeçalho da Coluna de Modelo**:
+  - Adicionado um cabeçalho traduzível ("Modelo") para a coluna de opções/modelo do baralho.
 - **v1.3 - 2025-05-27 - Correção para macOS**:
   - Corrigido `UnicodeDecodeError` no macOS ao especificar a codificação UTF-8 na leitura de arquivos `.js` e `.css`.
 - **v1.2 - 2025-05-25 - Remoção de Funcionalidade**:

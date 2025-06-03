@@ -57,9 +57,6 @@ def column_header(heading, colpos):
 option_header = """
     <th></th>"""
 
-option_name_header = """
-    <td></td>"""
-
 end_header = """
   </tr>"""
 
@@ -148,3 +145,7 @@ def progress(content):
         {content}
       </div>
       """
+
+def option_name_header_html(header_text: str):
+    return f"""
+    <th>{header_text}</th>"""

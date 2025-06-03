@@ -230,7 +230,8 @@
             "col_bar_total_header": "Total",
             "col_bar_total_overlay": "Percent bar showing the deck's repartition",
             "col_due_tomorrow_header": "Rev+1",
-            "col_due_tomorrow_overlay": "Cartões que serão entregues amanhã"
+            "col_due_tomorrow_overlay": "Cartões que serão entregues amanhã",
+            "col_preset_header": "Predef"
         },
         "en": {
             "col_new_today_header": "NewToday",
@@ -264,7 +265,8 @@
             "col_bar_total_header": "Total",
             "col_bar_total_overlay": "Percent bar showing the deck's repartition",
             "col_due_tomorrow_header": "Rev+1",
-            "col_due_tomorrow_overlay": "Cards due tomorrow"
+            "col_due_tomorrow_overlay": "Cards due tomorrow",
+            "col_preset_header": "Preset"
         }
     }
 } 

@@ -29,10 +29,10 @@ from .config import getFromName, getUserOption, writeConfig
 from .htmlAndCss import (bar, collapse_children_html, collapse_no_child,
                          column_header, css, deck_header, deck_name,
                          deck_option_name, end_header, end_line, gear, js,
-                         number_cell, option_header, option_name_header,
-                         progress, start_header, start_line)
+                         number_cell, option_header, 
+                         progress, start_header, start_line, option_name_header_html)
 from .printing import conditionString, nowLater
-from .strings import getColor, getHeader, getOverlay
+from .strings import getColor, getHeader, getOverlay, tr
 
 
 # Dict from deck id to deck node
@@ -600,7 +600,7 @@ def renderDeckTree(self:"DeckBrowser", nodes, depth=0):
                 buf += column_header(getHeader(conf), colpos)
         buf += option_header  # for deck's option
         if getUserOption("option"):
-            buf += option_name_header
+            buf += option_name_header_html(tr("col_preset_header"))
         buf += end_header
 
         # convert nodes
