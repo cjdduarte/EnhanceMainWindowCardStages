@@ -1,4 +1,4 @@
-# **Enhance main window🚦Card Stages**
+# **🚦Enhance main window - Card Stages**
 
 > **Note:** This document is available in both English and Portuguese. The English version is presented first, followed by the Portuguese version.
 >
@@ -7,7 +7,7 @@
 ---
 
 <b>#### New Change:</b>
-<b>2025-05-27 - macOS Fix</b>
+<b>2025-06-03 - Preset Column Header</b>
 
 <p align="center">
   *Anki interface before installing the add-on:*/<br>
@@ -17,10 +17,10 @@
 </p>
 
 <p align="center">
-  *Anki interface with the "Enhance main window🚦Card Stages" add-on installed:*/<br>
-  *Interface do Anki com o add-on "Enhance main window🚦Card Stages" instalado:*
+  *Anki interface with the "Enhance main window - Card Stages" add-on installed:*/<br>
+  *Interface do Anki com o add-on "Enhance main window - Card Stages" instalado:*
   <br>
-  <img src="https://i.ibb.co/MxPGH580/image.png" alt="Screenshot of Enhance main window🚦Card Stages">
+  <img src="https://i.ibb.co/xSwsgDfc/image.png" alt="Screenshot of Enhance main window - Card Stages">
 </p>
 
 ## **English**
@@ -42,7 +42,7 @@ The main goal is to offer a clear view by focusing on a set of simple columns. T
 - **Multi-language Support:** Headers and tooltips for columns are now translatable, with initial support for English and Portuguese (Brazil). Users can define translations in `config.json`.
 - **Based on Proven Code:** Built upon the solid foundation of the original "Enhance main window" addons, ensuring stability and compatibility.
 
-### **Why "Enhance main window🚦Card Stages"?**
+### **Why "Enhance main window - Card Stages"?**
 
 While the original "Enhance main window" and Shigeඞ's customized version offer a wealth of information and extensive customization, this version focuses on providing essential information in a highly intuitive and straightforward manner. If you appreciate a clean overview that helps you quickly locate cards within their study lifecycle, this addon is for you.
 
@@ -115,7 +115,7 @@ O objetivo principal é oferecer uma visão clara, focando em um conjunto de col
 - **Suporte Multilíngue:** Cabeçalhos e dicas de ferramenta das colunas agora são traduzíveis, com suporte inicial para Inglês e Português (Brasil). Os usuários podem definir traduções no `config.json`.
 - **Based on Proven Code:** Construído sobre a base sólida dos addons originais "Enhance main window", garantindo estabilidade e compatibilidade.
 
-### **Por que "Enhance main window🚦Card Stages"?**
+### **Por que "Enhance main window - Card Stages"?**
 
 Enquanto o "Enhance main window" original e a versão personalizada de Shigeඞ oferecem uma vasta quantidade de informações e personalização extensiva, esta versão foca em fornecer informações essenciais de uma maneira highly intuitiva e direta. Se você aprecia uma visão geral limpa que ajuda a localizar rapidamente os cartões dentro do seu ciclo de estudo, este addon é para você.
 
