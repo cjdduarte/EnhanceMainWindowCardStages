@@ -7,7 +7,7 @@
 ---
 
 <b>#### New Change:</b>
-<b>2025-06-03 - Preset Column Header</b>
+<b>2025-06-12 - Fix URL parsing error</b>
 
 <p align="center">
   *Anki interface before installing the add-on:*/<br>
@@ -78,6 +78,8 @@ If you encounter any issues or have ideas for simple enhancements that align wit
 
 ### **Changelog**
 
+- **v1.5 - 2025-06-12 - Fix URL parsing error**:
+  - Fixed ValueError when URLs contain multiple colons by limiting split to first occurrence only.
 - **v1.4 - 2025-06-03 - Preset Column Header**:
   - Added a translatable header ("Preset") to the deck options/preset column.
 - **v1.3 - 2025-05-27 - macOS Fix**:
@@ -151,6 +153,8 @@ Se você encontrar quaisquer problemas ou tiver ideias para melhorias simples qu
 
 ### **Histórico de Alterações**
 
+- **v1.5 - 2025-06-12 - Erro ao processar URLs**:
+  - Corrigido ValueError quando URLs contêm múltiplos dois-pontos limitando o split apenas à primeira ocorrência.
 - **v1.4 - 2025-06-03 - Cabeçalho da Coluna de Modelo**:
   - Adicionado um cabeçalho traduzível ("Modelo") para a coluna de opções/modelo do baralho.
 - **v1.3 - 2025-05-27 - Correção para macOS**:

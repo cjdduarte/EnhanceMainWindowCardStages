@@ -31,8 +31,9 @@ lastHandler = DeckBrowser._linkHandler
 
 
 def _linkHandler(self, url):
+    # print(f"DEBUG _linkHandler url: {url}")
     if ":" in url:
-        (cmd, arg) = url.split(":")
+        (cmd, arg) = url.split(":", 1)
         if cmd == "dragColumn":
             return columnHandler(self, arg)
     return lastHandler(self, url)
