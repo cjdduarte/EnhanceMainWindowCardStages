@@ -22,6 +22,7 @@ except ModuleNotFoundError:
     from anki.scheduler import v3
 from aqt.deckbrowser import DeckBrowser
 from aqt import mw
+from aqt import gui_hooks
 
 from .column import _linkHandler
 from .node import idToNode, renderDeckTree
@@ -32,64 +33,47 @@ def deckRow(self, node, depth, cnt):
     return node.htmlRow(self, depth, cnt)
 
 
-def getDeckTree():
-    """Obter árvore de decks usando a nova API, com fallbacks para compatibilidade"""
+# Intercepta o método original para usar a nova API
+original_deckDueTree = None
+
+def patched_deckDueTree(*args, **kwargs):
+    """Substitui deckDueTree deprecated pela nova API deck_due_tree"""
     try:
-        # Primeiro tenta usar a nova API recomendada
-        return mw.col.sched.deck_due_tree()
+        # Tenta usar a nova API recomendada
+        return mw.col.sched.deck_due_tree(*args, **kwargs)
     except AttributeError:
-        # Fallback para versões mais antigas ou schedules diferentes
-        try:
-            # Tenta a função deprecated (para compatibilidade temporária)
-            return mw.col.sched.deckDueTree()
-        except AttributeError:
+        # Fallback para a função original se disponível
+        if original_deckDueTree:
+            return original_deckDueTree(*args, **kwargs)
+        else:
             # Último recurso - árvore sem contadores
             return mw.col.decks.deck_tree()
 
 
-# Intercepta o método que chama _renderDeckTree para usar nossa nova função
-def _renderPage(self, reuse=False):
-    """Substituição para usar sched.deck_due_tree() ao invés de deckDueTree()"""
-    # Armazena a árvore para uso em outros métodos
-    self._tree = getDeckTree()
-    
-    # Chama a lógica original do corpo
-    content = self._body()
-    
-    # Renderiza a página com o conteúdo
-    self.web.stdHtml(
-        content,
-        css=["css/deckbrowser.css"],
-        js=["js/deckbrowser.js", "js/vendor/jquery-ui.js"],
-        context=self,
-    )
+def apply_deck_tree_patch():
+    """Aplica patch para substituir deckDueTree deprecated"""
+    global original_deckDueTree
+    if mw and mw.col and hasattr(mw.col.sched, 'deckDueTree'):
+        if original_deckDueTree is None:
+            # Salva a função original
+            original_deckDueTree = mw.col.sched.deckDueTree
+            # Substitui pela nova implementação
+            mw.col.sched.deckDueTree = patched_deckDueTree
 
 
-def _body(self):
-    """Método modificado para usar nossa árvore armazenada"""
-    if hasattr(self, '_tree') and self._tree is not None:
-        tree = self._tree
-    else:
-        # Fallback se _tree não estiver definido
-        tree = getDeckTree()
-    
-    # Constrói o HTML da lista de decks usando nosso renderDeckTree customizado
-    return f"""
-<center>
-<table cellspacing=0 cellpadding=3>
-{self._renderDeckTree(tree)}
-</table>
+# Hook para aplicar o patch quando o perfil for carregado
+def on_profile_loaded():
+    """Aplica patch quando o perfil do Anki é carregado"""
+    apply_deck_tree_patch()
 
-<br>
-{self._drawButtons()}
-</center>
-"""
+
+# Aplica o patch imediatamente se já tiver coleção carregada
+apply_deck_tree_patch()
+
+# Também aplica via hook para garantir que funcione em todas as situações
+gui_hooks.profile_did_open.append(on_profile_loaded)
 
 
 DeckBrowser._deckRow = deckRow
 DeckBrowser._renderDeckTree = renderDeckTree
 DeckBrowser._linkHandler = _linkHandler
-
-# Substitui os métodos que chamam deckDueTree() deprecated
-DeckBrowser._renderPage = _renderPage
-DeckBrowser._body = _body
