@@ -7,7 +7,7 @@
 ---
 
 <b>#### New Change:</b>
-<b>2025-06-12 - Fix URL parsing error</b>
+<b>2025-06-23 - Fix deprecated API usage</b>
 
 <p align="center">
   *Anki interface before installing the add-on:*/<br>
@@ -78,6 +78,10 @@ If you encounter any issues or have ideas for simple enhancements that align wit
 
 ### **Changelog**
 
+- **v1.6 - 2025-06-23 - Fix deprecated API usage**:
+  - Replaced deprecated `deckDueTree()` with modern `sched.deck_due_tree()` API.
+  - Added fallback compatibility for older Anki versions.
+  - Eliminated deprecated API warning messages in Anki logs.
 - **v1.5 - 2025-06-12 - Fix URL parsing error**:
   - Fixed ValueError when URLs contain multiple colons by limiting split to first occurrence only.
 - **v1.4 - 2025-06-03 - Preset Column Header**:
@@ -153,6 +157,10 @@ Se você encontrar quaisquer problemas ou tiver ideias para melhorias simples qu
 
 ### **Histórico de Alterações**
 
+- **v1.6 - 2025-06-23 - Correção de API deprecated**:
+  - Substituída a API deprecated `deckDueTree()` pela moderna `sched.deck_due_tree()`.
+  - Adicionada compatibilidade com fallback para versões mais antigas do Anki.
+  - Eliminadas as mensagens de aviso de API deprecated nos logs do Anki.
 - **v1.5 - 2025-06-12 - Erro ao processar URLs**:
   - Corrigido ValueError quando URLs contêm múltiplos dois-pontos limitando o split apenas à primeira ocorrência.
 - **v1.4 - 2025-06-03 - Cabeçalho da Coluna de Modelo**:
